@@ -67,7 +67,7 @@ body {
 }
 
 body {
-  background: #D91604;
+  background: #100340;
   font-family: "muli-regular", sans-serif;
   font-size: 1.6rem;
   line-height: 1.875;
@@ -1159,10 +1159,10 @@ h1.intro-header::before {
   padding: 0;
   outline: 0;
   border: none;
-  width: 109px;
-  height: 92px;
-  background: url("../images/logo.png") no-repeat center;
-  background-size: 109px 92px;
+  width: 60px;
+  height: 60px;
+  background: url("../images/Bomberos-Matanza-Logo.png") no-repeat center;
+  background-size: 60px 60px;
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
@@ -1555,7 +1555,7 @@ h1.intro-header::before {
 .home-social-list li a:hover,
 .home-social-list li a:focus,
 .home-social-list li a:active {
-  color: #44c455;
+  color: #100340;
 }
 
 
@@ -1835,7 +1835,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 #about {
   min-height: 786px;
-  background: #ffffff;
+  background: #f5f5f5;
   padding-top: 18rem;
   overflow: hidden;
 }
@@ -1859,14 +1859,14 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .about-features .feature .icon i {
-  color: #39b54a;
+  color: #F2AE30;
   font-size: 4.8rem;
 }
 
 .about-features .feature h3 {
   font-family: "montserrat-regular", sans-serif;
   font-size: 1.9rem;
-  color: #151515;
+  color: #100340;
   margin-bottom: 3rem;
 }
 
@@ -2267,7 +2267,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  * ------------------------------------------------------------------- */
 
 #testimonials {
-  background: #FFFFFF;
+  background: #f5f5f5;
   padding: 15rem 0 9rem;
   text-align: center;
   min-height: 600px;
@@ -2478,7 +2478,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  * ------------------------------------------------------------------- */
 
 #download {
-  background: #39b54a;
+  background: #100340;
   color: #b2fabc;
   padding-top: 12rem;
   padding-bottom: 12rem;
@@ -2490,7 +2490,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 #download h1::before {
-  background-color: #2a9038;
+  background-color: #F2AE30;
   left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -2498,7 +2498,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 #download .lead {
-  color: #b2fabc;
+  color: white;
   margin-top: 4.8rem;
 }
 
@@ -2565,11 +2565,12 @@ footer {
   font-size: 1.5rem;
   line-height: 2.7rem;
   color: rgba(255, 255, 255, 0.25);
+  background: #f5f5f5;
 }
 
 footer a,
 footer a:visited {
-  color: #39b54a;
+  color: #100340;
 }
 
 footer a:hover,
@@ -2578,11 +2579,15 @@ footer a:focus {
 }
 
 footer h4 {
-  color: white;
+  color: #100340;
   font-size: 1.5rem;
   padding-bottom: 2.4rem;
   margin-bottom: 2.4rem;
   position: relative;
+}
+
+footer p {
+  color: black;
 }
 
 footer h4::before {
@@ -2605,9 +2610,12 @@ footer ul li {
   padding-left: 0;
 }
 
-footer ul a,
-footer ul a:visited {
-  color: rgba(255, 255, 255, 0.25);
+footer ul a {
+  color: black;
+}
+
+footer ul a:hover {
+  color: #100340;
 }
 
 .footer-logo {
@@ -2617,9 +2625,9 @@ footer ul a:visited {
   outline: 0;
   border: none;
   width: 93px;
-  height: 21px;
-  background: url("../images/logo.png") no-repeat center;
-  background-size: 93px 21px;
+  height: 93px;
+  background: url("../images/Bomberos-Matanza-Logo.png") no-repeat center;
+  background-size: 93px 93px;
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
