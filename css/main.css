@@ -2322,6 +2322,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   position: relative;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 #testimonial-slider .slides {
