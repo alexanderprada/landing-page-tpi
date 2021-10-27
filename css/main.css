@@ -2694,7 +2694,7 @@ footer ul a:hover {
 
 .footer-logo {
   display: block;
-  margin: 0 0 5.4rem 0;
+  margin: 2rem auto;
   padding: 0;
   outline: 0;
   border: none;
@@ -2918,6 +2918,14 @@ footer ul a:hover {
  * footer
  * ------------------------------------------------------------------- */
 
+.footer-info {
+  text-align: center;
+}
+
+.footer-map {
+  margin-bottom: 2rem;
+}
+
 @media only screen and (max-width: 1024px) {
   .footer-main>.row {
     max-width: 800px;
@@ -2929,6 +2937,17 @@ footer ul a:hover {
   }
   .footer-subscribe {
     clear: both;
+  }
+  .footer-info {
+    width: 100%;
+  }
+  .footer-site-links {
+    width: 100%;
+    text-align: center;
+  }
+  .footer-contact {
+    width: 100%;
+    text-align: center;
   }
 }
 
@@ -2993,6 +3012,3 @@ footer ul a:hover {
     display: none;
   }
 }
-
-
-/*# sourceMappingURL=main.css.map */
