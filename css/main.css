@@ -2328,7 +2328,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 #team {
   background: #f5f5f5;
-  padding: 15rem 0 9rem;
+  padding: 15rem 0 0rem;
   text-align: center;
   min-height: 600px;
 }
@@ -2902,6 +2902,15 @@ footer ul a:hover {
 #contact form label {
   color: #100340;
   font-size: 1.6rem;
+}
+
+/* ===================================================================
+ *  17. dashboard styles
+ *
+ * ------------------------------------------------------------------- */
+
+#dashboard {
+    background-color: #f5f5f5;
 }
 
 /* -------------------------------------------------------------------
