@@ -795,8 +795,8 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  background: #309a3f;
-  border-color: #309a3f;
+  background: #D91604;
+  border-color: #D91604;
 }
 
 button.full-width,
@@ -1143,7 +1143,7 @@ h1.intro-header::before {
 
 .header-logo {
   position: absolute;
-  left: 35px;
+  left: 40px;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -2358,11 +2358,12 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 #testimonial-slider .testimonial-author {
   margin-top: 4.2rem;
+  flex-basis: 30%;
 }
 
 #testimonial-slider .testimonial-author img {
-  width: 7.4rem;
-  height: 7.4rem;
+  width: 11.4rem;
+  height: 11.4rem;
   margin: 0 auto 1.2rem auto;
   display: block;
   border-radius: 50%;
@@ -2474,6 +2475,10 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 @media only screen and (max-width: 768px) {
+
+  #testimonial-slider .testimonial-author {
+    flex-basis: 50%;
+  }
   #testimonial-slider p {
     font-size: 2.6rem;
   }
@@ -2820,6 +2825,51 @@ footer ul a:hover {
   color: #FFFFFF;
 }
 
+/* ===================================================================
+ *  16. contact styles
+ *
+ * ------------------------------------------------------------------- */
+
+#contact {
+  background-color: #f5f5f5;
+}
+
+#contact .row {
+  margin: 0 auto;
+}
+
+#contact h1 {
+  text-align: center;
+}
+
+#contact h1::before {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+#contact form {
+  max-width: 900px;
+  margin: auto;
+}
+
+#contact form .button-primary {
+  width: 100%;
+  background-color: #100340;
+  border-color: #100340;
+}
+
+#contact form .button-primary:hover,
+.button-primary:focus {
+  background-color: #D91604;
+  border-color: #D91604;
+}
+
+#contact form label {
+  color: #100340;
+  font-size: 1.6rem;
+}
 
 /* -------------------------------------------------------------------
  * responsive:
