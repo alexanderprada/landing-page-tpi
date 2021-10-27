@@ -1558,7 +1558,7 @@ h1.intro-header::before {
 .home-social-list li a:hover,
 .home-social-list li a:focus,
 .home-social-list li a:active {
-  color: #D91604;
+  color: #100340;
 }
 
 
@@ -1583,7 +1583,7 @@ h1.intro-header::before {
 
 .home-scrolldown a:hover,
 .home-scrolldown a:focus {
-  color: #D91604 !important;
+  color: #100340 !important;
 }
 
 html[data-useragent*='MSIE 10.0'] .home-scrolldown,
@@ -1682,9 +1682,6 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 @media only screen and (max-width: 1200px) {
-  #home {
-    overflow: hidden;
-  }
   .home-content {
     vertical-align: middle;
   }
@@ -1995,6 +1992,12 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 @media only screen and (max-width: 1200px) {
   .about-how-content {
     max-width: 800px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #about {
+    padding-top: 40rem;
   }
 }
 
