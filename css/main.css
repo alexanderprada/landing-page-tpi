@@ -1841,7 +1841,12 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .app-slider-container {
-  max-width: 100%;
+  max-width: 60%;
+  margin: auto;
+}
+
+.app-slider-container img {
+  max-height: 700px;
   margin: auto;
 }
 
@@ -1861,6 +1866,25 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   right: 30px !important;
   z-index: 99;
 }
+
+@media only screen and (min-width: 1400px) {
+  .slick-prev {
+    left: -65px !important;
+    z-index: 99;
+  }
+
+  .slick-next {
+    right: -40px !important;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .app-slider-container {
+    max-width: 100%;
+  }
+}
+
+
 
 .title-gallery {
   color: white !important;
@@ -2365,8 +2389,8 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 #testimonial-slider .testimonial-author img {
-  width: 11.4rem;
-  height: 11.4rem;
+  width: 24.4rem;
+  height: 24.4rem;
   margin: 0 auto 1.2rem auto;
   display: block;
   border-radius: 50%;
@@ -2475,25 +2499,30 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   #testimonial-slider p {
     font-size: 3rem;
   }
+  #testimonial-slider .testimonial-author {
+    flex-basis: 50%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
 
   #testimonial-slider .testimonial-author {
-    flex-basis: 50%;
+    flex-basis: 100%;
   }
   #testimonial-slider p {
     font-size: 2.6rem;
-  }
-  #testimonial-slider .testimonial-author img {
-    width: 6.6rem;
-    height: 6.6rem;
   }
   #testimonial-slider .testimonial-author .author-info {
     font-size: 1.8rem;
   }
   #testimonial-slider .testimonial-author .author-info span {
     font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  #testimonial-slider .testimonial-author {
+    flex-basis: 100%;
   }
 }
 
@@ -2504,6 +2533,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   #testimonial-slider p {
     font-size: 2.4rem;
   }
+
 }
 
 @media only screen and (max-width: 400px) {
@@ -2859,8 +2889,8 @@ footer ul a:hover {
 
 #contact form .button-primary {
   width: 100%;
-  background-color: #100340;
-  border-color: #100340;
+  background-color: #D91604;
+  border-color: #D91604;
 }
 
 #contact form .button-primary:hover,
